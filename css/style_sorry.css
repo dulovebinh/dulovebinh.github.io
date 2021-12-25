@@ -1,0 +1,330 @@
+/** @format */
+/*--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+
+/* reset */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+dl,
+dt,
+dd,
+ol,
+nav ul,
+nav li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+ol,
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* start editing from here */
+a {
+  text-decoration: none;
+}
+.txt-rt {
+  text-align: right;
+} /* text align right */
+.txt-lt {
+  text-align: left;
+} /* text align left */
+.txt-center {
+  text-align: center;
+} /* text align center */
+.float-rt {
+  float: right;
+} /* float right */
+.float-lt {
+  float: left;
+} /* float left */
+.clear {
+  clear: both;
+} /* clear float */
+.pos-relative {
+  position: relative;
+} /* Position Relative */
+.pos-absolute {
+  position: absolute;
+} /* Position Absolute */
+.vertical-base {
+  vertical-align: baseline;
+} /* vertical align baseline */
+.vertical-top {
+  vertical-align: top;
+} /* vertical align top */
+nav.vertical ul li {
+  display: block;
+} /* vertical menu */
+nav.horizontal ul li {
+  display: inline-block;
+} /* horizontal menu */
+img {
+  max-width: 100%;
+}
+/*end reset*/
+
+body {
+  padding: 0;
+  margin: 0;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  -moz-background-size: cover;
+  font-family: "Fira Sans", sans-serif !important;
+}
+
+main {
+  min-height: 100vh;
+  background-image: url("../images/bg_sorry.jpg");
+  background-size: cover;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+.container a {
+  color: green;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.youtube-container {
+  max-width: 350px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.iframe-wrap {
+  position: relative;
+  padding-bottom: 16.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+  border-radius: 16px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.iframe-wrap iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.img {
+  width: 140px;
+  height: 140px;
+  display: block;
+  margin: auto;
+  padding: 20px 0;
+}
+
+.box-message-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 0 20px;
+  position: relative;
+}
+
+.box-message {
+  display: grid;
+  grid-template-columns: 40px auto;
+  grid-column-gap: 8px;
+  margin-bottom: 20px;
+  position: absolute;
+}
+
+.box-message-container.full .box-message {
+  position: unset;
+}
+
+.avatar-message {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-top: 4px;
+  border: 1px solid pink;
+}
+
+.message {
+  background-color: white;
+  padding: 12px;
+  border-radius: 12px;
+  font-size: 14px;
+  word-break: break-word;
+  line-height: 22px;
+}
+
+.message b {
+  font-weight: bold;
+}
+
+.message b.hl {
+  color: #ff738c;
+}
+
+.message span {
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.message.icon {
+  background-color: transparent;
+}
+
+.message.image {
+  background-color: transparent;
+  border-radius: 12px;
+  padding: 0;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  border: 3px solid white;
+  position: relative;
+  max-height: 350px;
+  overflow: hidden;
+}
+
+.message.image .image-view {
+  border-radius: 12px;
+  width: 100%;
+}
+
+.icon-heart {
+  position: absolute;
+  width: 40px;
+  transform: rotate(55deg);
+  right: 10px;
+  top: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .box-message {
+    grid-template-columns: 40px 288px;
+  }
+  .message.image {
+    width: 266px;
+    max-height: unset;
+    overflow: unset;
+  }
+  .icon-heart {
+    right: -25px;
+    top: -10px;
+  }
+}
