@@ -49,6 +49,11 @@ const listMessage = [
     },
     {
         type: TYPE_MESSAGE.MESSAGE,
+        message: 'Phải là do anh ích kỷ chỉ muốn em là của riêng mình anh. A nghĩ rằng sở thích đó đã cướp em ra khỏi anh',
+        time: 6,
+    },
+    {
+        type: TYPE_MESSAGE.MESSAGE,
         message: 'Nhưng sau khoảng thời gian ấy a mới biết mình <b class="hl">yêu em</b> đến nhường nào. A biết chắc chắn một điều, người ở lại sẽ là người <b class="hl">ôm nhiều vấn vương.</b>',
         time: 4.5,
     },
@@ -163,6 +168,7 @@ const listMessage = [
         time: 6.5,
     },
 ];
+
 
 for (let i = 1; i <= 32; i++) {
     listMessage.push({
