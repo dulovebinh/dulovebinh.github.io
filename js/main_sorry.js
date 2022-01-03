@@ -25,7 +25,7 @@ const listMessage = [
     },
     {
         type: TYPE_MESSAGE.MESSAGE,
-        message: 'Nhưng chỉ vì thoáng nóng giận anh đã hủy hoại 2 trái tim <b>yêu thương nhau.</b> 💔',
+        message: 'Nhưng chỉ vì thoáng nóng giận đã hủy hoại 2 trái tim <b>yêu thương nhau.</b> 💔',
         time: 3,
     }, {
         type: TYPE_MESSAGE.ICON,
@@ -65,7 +65,7 @@ const listMessage = [
     {
         type: TYPE_MESSAGE.MESSAGE,
         message: 'Trước khi đi ngủ anh đều phải nghĩ giả vờ như mình vẫn còn đang <b class="hl">hạnh phúc bên nhau.</b> Rồi chìm vào cùng giấc mơ đó.',
-        time: 3.7,
+        time: 5,
     },
     {
         type: TYPE_MESSAGE.ICON,
@@ -75,12 +75,12 @@ const listMessage = [
     {
         type: TYPE_MESSAGE.MESSAGE,
         message: 'Nhưng khi tỉnh dậy thì thực tại phũ phàng rằng <span>"không có em bên cạnh" </span> lại hiện ra trước mắt',
-        time: 3.5,
+        time: 4,
     },
     {
         type: TYPE_MESSAGE.MESSAGE,
-        message: 'Anh lại phải tự <b>lừa dối</b> bản thân mình. Che đi <b>nỗi buồn</b> và mạnh mẽ để đối mặt với những khó khăn trong cuộc sống.',
-        time: 3.6,
+        message: 'Anh lại phải tự <b>lừa dối</b> bản thân mình. Che đi <b>nỗi buồn</b> và mạnh mẽ để đối mặt với bao khó khăn thử thách',
+        time: 5,
     },
     {
         type: TYPE_MESSAGE.ICON,
@@ -104,63 +104,63 @@ const listMessage = [
     },
     {
         type: TYPE_MESSAGE.MESSAGE,
-        message: 'A nhận ra a đã vô tình đánh mất thời gian đáng lẽ ra phải dành cho em. Người mà đã cùng anh vượt qua bao khó khăn',
+        message: 'A nhận ra a đã vô tình đánh mất thời gian đáng lẽ ra phải dành cho em',
         time: 3.5,
     },
     {
         type: TYPE_MESSAGE.MESSAGE,
         message: 'Anh đã mắc phải sai lầm của tuổi trẻ... Em à! nếu được ở cạnh em 1 lần nữa. Thì sai lầm đó là món quà vô giá với anh',
-        time: 4.5,
+        time: 6,
     }, 
     {
         type: TYPE_MESSAGE.MESSAGE,
         message: 'Nó giúp anh hiểu ra em là người <b>quan trọng</b> với anh. Nó nhắc anh phải <b>hy sinh và dành</b> cho em nhiều hơn...',
-        time: 4,
+        time: 5,
     }, 
     {
         type: TYPE_MESSAGE.MESSAGE,
         message: 'Buồn nhỉ :(( ? Chia tay mà còn  <b class="hl">yêu</b> như thế, có thể quay <b class="hl">trở lại</b> không em? =((',
-        time: 4,
+        time: 5,
     },
     {
         type: TYPE_MESSAGE.MESSAGE,
         message: 'Có một tràng trai đã từng: nhịn ăn mỗi buổi trưa lúc trời đông lạnh buốt, lo lắng mỗi khí em bị ốm, mua các món ăn em thích...',
-        time: 4,
+        time: 5,
     },
     {
         type: TYPE_MESSAGE.MESSAGE,
-        message: 'Từng trở em đi trên các con phố, ở bên cạnh an ủi em mỗi lúc em buồn, dành tất cả cho em...',
-        time: 4,
+        message: 'Từng trở em đi trên các con phố, ở bên cạnh an ủi em mỗi lúc em buồn..',
+        time: 5,
     },
     {
         type: TYPE_MESSAGE.MESSAGE,
-        message: 'Từng trao nụ hôn ngọt ngào, nắm tay em trên con đường ấy...',
-        time: 3.5,
+        message: 'Từng trao nụ hôn ngọt ngào, nắm tay em trên con đường ấy... Luôn cố gắng vì tương lai 2 đứa sau này',
+        time: 4.5,
     },
     {
         type: TYPE_MESSAGE.MESSAGE,
         message: 'Có một người con gái đã từng: Yên tâm tin tưởng nơi chàng trai đó, thích được chàng trai đó cưng chiều',
-        time: 4,
+        time: 5,
     },
     {
         type: TYPE_MESSAGE.MESSAGE,
         message: 'Quan tâm lo lắng từng bữa ăn giấc ngủ, đến cả quần áo để mặc... thích được chàng trai đó âu yếm, sấy tóc, mỗi khi tắm xong',
-        time: 4,
+        time: 5,
     },
     {
         type: TYPE_MESSAGE.MESSAGE,
         message: 'Luôn nhắc nhở chàng trai ra ngoài phải cẩn thận, đi đến nới nhớ nhắn tin cho em',
-        time: 4,
+        time: 5,
     },
     {
         type: TYPE_MESSAGE.MESSAGE,
         message: 'Hai người họ đã yêu thương nhau và cùng vượt qua những khó khăn trong cuộc sống',
-        time: 4,
+        time: 5,
     },
      {
         type: TYPE_MESSAGE.MESSAGE,
         message: 'Em là  <b class="hl">công chúa</b> là <b class="hl">báu vật</b> của a. A hứa sẽ yêu thường em nhiều hơn dành tất cả cho em. Đừng rời xa và <b class="hl">tha thứ</b> cho anh em nhé',
-        time: 4,
+        time: 6.5,
     },
 ];
 
