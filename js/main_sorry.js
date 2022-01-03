@@ -15,7 +15,7 @@ const TYPE_MESSAGE = {
 const listMessage = [
     {
         type: TYPE_MESSAGE.MESSAGE,
-        message: `Em à! anh có vài điều muốn nói với em =^^.`,
+        message: `Em à! anh có vài điều muốn nói với em ^^=.`,
         time: 5,
     },
     {
@@ -34,28 +34,6 @@ const listMessage = [
     },
     {
         type: TYPE_MESSAGE.MESSAGE,
-        message: 'Anh biết anh là người đàn ông xấu xa tồi tệ. Đã khiến em phải chịu nhiều <b>thiệt thòi</b> 😭',
-        time: 3.5,
-    },
-    {
-        type: TYPE_MESSAGE.MESSAGE,
-        message: 'A cũng chẳng biết chân trọng người mà anh <b class="hl">yêu thương nhất</b> đó là <b>em</b>...',
-        time: 3.5,
-    },
-    {
-        type: TYPE_MESSAGE.MESSAGE,
-        message: 'Nhưng e có biết không. Cuộc sống chúng ta còn <b>dài và còn nhiều khó khăn</b> đang chờ đợi phía trước',
-        time: 3.5,
-    }, {
-        type: TYPE_MESSAGE.MESSAGE,
-        message: 'Lúc đấy chúng ta sẽ cần một người <b class="hl">luôn bên cạnh</b> quan tâm và chia sẻ buồn vui...',
-        time: 3.5,
-    }, {
-        type: TYPE_MESSAGE.MESSAGE,
-        message: 'Sai lầm để ta trở nên <b>tốt hơn</b>. Sai lầm là món quà của tuổi trẻ...nhưng ta chỉ có quyền mắc sai lầm một lần.',
-        time: 4,
-    }, {
-        type: TYPE_MESSAGE.MESSAGE,
         message: 'Em có biết điều <b>đau lòng</b> nhất khi yêu là gì không? Là khi cả 2 vẫn còn tình cảm, nhưng một người đã <span>không muốn ở lại nữa</span>.',
         time: 4.5,
     },
@@ -71,8 +49,8 @@ const listMessage = [
     },
     {
         type: TYPE_MESSAGE.MESSAGE,
-        message: 'Có lẽ là do tình yêu đã vơi đi nhiều rồi.... <b>anh không chắc nữa</b>. Nhưng chắc chắn một điều, người ở lại sẽ là người <b class="hl">ôm nhiều vấn vương.</b>',
-        time: 4,
+        message: 'Nhưng sau khoảng thời gian ấy a mới biết mình <b class="hl">yêu em</b> đến nhường nào. A biết chắc chắn một điều, người ở lại sẽ là người <b class="hl">ôm nhiều vấn vương.</b>',
+        time: 4.5,
     },
     {
         type: TYPE_MESSAGE.MESSAGE,
@@ -81,17 +59,13 @@ const listMessage = [
     },
     {
         type: TYPE_MESSAGE.MESSAGE,
-        message: 'Một mình anh lang thang <b>chốn cũ</b>, <b>lòng quặn đau nước mắt ướt nhòa</b> chẳng thể nào biết được, liệu mai sau có thể <b>gặp lại</b> nữa...',
-        time: 4,
-    }, {
-        type: TYPE_MESSAGE.MESSAGE,
         message: 'Hằng ngày đi làm chỉ muốn về <b class="hl">được nhìn thấy em.</b> Lòng anh được an ủi giữa chốn Hà Nội ồn ào đông đúc.',
-        time: 3,
+        time: 4,
     },
     {
         type: TYPE_MESSAGE.MESSAGE,
         message: 'Trước khi đi ngủ anh đều phải nghĩ giả vờ như mình vẫn còn đang <b class="hl">hạnh phúc bên nhau.</b> Rồi chìm vào cùng giấc mơ đó.',
-        time: 3.5,
+        time: 3.7,
     },
     {
         type: TYPE_MESSAGE.ICON,
@@ -101,17 +75,12 @@ const listMessage = [
     {
         type: TYPE_MESSAGE.MESSAGE,
         message: 'Nhưng khi tỉnh dậy thì thực tại phũ phàng rằng <span>"không có em bên cạnh" </span> lại hiện ra trước mắt',
-        time: 3.2,
+        time: 3.5,
     },
     {
         type: TYPE_MESSAGE.MESSAGE,
         message: 'Anh lại phải tự <b>lừa dối</b> bản thân mình. Che đi <b>nỗi buồn</b> và mạnh mẽ để đối mặt với những khó khăn trong cuộc sống.',
         time: 3.6,
-    },
-    {
-        type: TYPE_MESSAGE.MESSAGE,
-        message: 'Ngàn lần anh yếu đuối, ngàn lần để nước mắt rơi. Để rồi chợt nhận ra năm tháng kia cũng đã vội qua.',
-        time: 3.2,
     },
     {
         type: TYPE_MESSAGE.ICON,
@@ -120,7 +89,77 @@ const listMessage = [
     },
     {
         type: TYPE_MESSAGE.MESSAGE,
+        message: 'Anh biết anh là người đàn ông xấu xa tồi tệ. Đã khiến em phải chịu nhiều <b>thiệt thòi</b> 😭',
+        time: 3.5,
+    },
+    {
+        type: TYPE_MESSAGE.MESSAGE,
+        message: 'A cũng chẳng biết chân trọng người mà anh <b class="hl">yêu thương nhất</b> đó là <b>em</b>...',
+        time: 3.5,
+    },
+    {
+        type: TYPE_MESSAGE.MESSAGE,
+        message: 'A đã quá nghĩ ngợi vào công việc và bỏ quyên những thứ trước mắt. A nghĩ về sau này nhiều hơn những gì a đang có',
+        time: 3.5,
+    },
+    {
+        type: TYPE_MESSAGE.MESSAGE,
+        message: 'A nhận ra a đã vô tình đánh mất thời gian đáng lẽ ra phải dành cho em. Người mà đã cùng anh vượt qua bao khó khăn',
+        time: 3.5,
+    },
+    {
+        type: TYPE_MESSAGE.MESSAGE,
+        message: 'Anh đã mắc phải sai lầm của tuổi trẻ... Em à! nếu được ở cạnh em 1 lần nữa. Thì sai lầm đó là món quà vô giá với anh',
+        time: 4.5,
+    }, 
+    {
+        type: TYPE_MESSAGE.MESSAGE,
+        message: 'Nó giúp anh hiểu ra em là người <b>quan trọng</b> với anh. Nó nhắc anh phải <b>hy sinh và dành</b> cho em nhiều hơn...',
+        time: 4,
+    }, 
+    {
+        type: TYPE_MESSAGE.MESSAGE,
         message: 'Buồn nhỉ :(( ? Chia tay mà còn  <b class="hl">yêu</b> như thế, có thể quay <b class="hl">trở lại</b> không em? =((',
+        time: 4,
+    },
+    {
+        type: TYPE_MESSAGE.MESSAGE,
+        message: 'Có một tràng trai đã từng: nhịn ăn mỗi buổi trưa lúc trời đông lạnh buốt, lo lắng mỗi khí em bị ốm, mua các món ăn em thích...',
+        time: 4,
+    },
+    {
+        type: TYPE_MESSAGE.MESSAGE,
+        message: 'Từng trở em đi trên các con phố, ở bên cạnh an ủi em mỗi lúc em buồn, dành tất cả cho em...',
+        time: 4,
+    },
+    {
+        type: TYPE_MESSAGE.MESSAGE,
+        message: 'Từng trao nụ hôn ngọt ngào, nắm tay em trên con đường ấy...',
+        time: 3.5,
+    },
+    {
+        type: TYPE_MESSAGE.MESSAGE,
+        message: 'Có một người con gái đã từng: Yên tâm tin tưởng nơi chàng trai đó, thích được chàng trai đó cưng chiều',
+        time: 4,
+    },
+    {
+        type: TYPE_MESSAGE.MESSAGE,
+        message: 'Quan tâm lo lắng từng bữa ăn giấc ngủ, đến cả quần áo để mặc... thích được chàng trai đó âu yếm, sấy tóc, mỗi khi tắm xong',
+        time: 4,
+    },
+    {
+        type: TYPE_MESSAGE.MESSAGE,
+        message: 'Luôn nhắc nhở chàng trai ra ngoài phải cẩn thận, đi đến nới nhớ nhắn tin cho em',
+        time: 4,
+    },
+    {
+        type: TYPE_MESSAGE.MESSAGE,
+        message: 'Hai người họ đã yêu thương nhau và cùng vượt qua những khó khăn trong cuộc sống',
+        time: 4,
+    },
+     {
+        type: TYPE_MESSAGE.MESSAGE,
+        message: 'Em là  <b class="hl">công chúa</b> là <b class="hl">báu vật</b> của a. A hứa sẽ yêu thường em nhiều hơn dành tất cả cho em. Đừng rời xa và <b class="hl">tha thứ</b> cho anh em nhé',
         time: 4,
     },
 ];
