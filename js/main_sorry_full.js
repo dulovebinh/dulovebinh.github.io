@@ -124,7 +124,7 @@ const listMessage = [
     },
     {
         type: TYPE_MESSAGE.MESSAGE,
-        message: 'Có một tràng trai đã từng: nhịn ăn mỗi buổi trưa lúc trời đông lạnh buốt, lo lắng mỗi khí em bị ốm, mua các món ăn em thích...',
+        message: 'Có một tràng trai đã từng: nhịn ăn mỗi buổi trưa lúc trời đông lạnh buốt, lo lắng mỗi khi em bị ốm, mua các món ăn em thích...',
         time: 5,
     },
     {
@@ -200,3 +200,46 @@ const initElement = () => {
 };
 
 initElement();
+// Animation Timeline
+const animationTimeline = () => {
+
+    const tl = new TimelineMax();
+
+    tl
+        .to(".container", 2, {
+            visibility: "visible"
+        })
+
+
+    listMessage.forEach((item, index) => {
+        tl.from(`.box-message-${index}`, 0.7, {
+            opacity: 0,
+            y: 10,
+        })
+            .to(
+                `.box-message-${index}`,
+                0.7,
+                {
+                    opacity: 0,
+                    y: 10,
+                },
+                `+=${item?.time || 3}`
+            )
+    })
+
+    // Restart Animation on click
+    const replyBtn = document.getElementById("replay");
+    replyBtn.addEventListener("click", () => {
+        tl.restart();
+    });
+};
+
+// Run fetch and animation in sequence
+const resolveFetch = () => {
+    return new Promise((resolve, reject) => {
+        fetchData();
+        resolve("Fetch done!");
+    });
+};
+
+resolveFetch().then(animationTimeline());
