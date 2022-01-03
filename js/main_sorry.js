@@ -20,13 +20,13 @@ const listMessage = [
     },
     {
         type: TYPE_MESSAGE.MESSAGE,
-        message: `Chúng ta đã có mỗi tình khoảng thời gian thật đẹp và đang nhẽ đến giờ nó vẫn <b>đang diễn ra</b> ${getDayCount()} ngày.`,
+        message: `Chúng ta đã có khoảng thời gian thật đẹp và đang nhẽ đến giờ nó vẫn <b>đang diễn ra</b> ${getDayCount()} ngày.`,
         time: 5,
     },
     {
         type: TYPE_MESSAGE.MESSAGE,
         message: 'Nhưng chỉ vì thoáng nóng giận đã hủy hoại 2 trái tim <b>yêu thương nhau.</b> 💔',
-        time: 3,
+        time: 4,
     }, {
         type: TYPE_MESSAGE.ICON,
         message: 'images/img_cry_1.webp',
@@ -99,7 +99,7 @@ const listMessage = [
     },
     {
         type: TYPE_MESSAGE.MESSAGE,
-        message: 'A cũng chẳng biết chân trọng người mà anh <b class="hl">yêu thương nhất</b> đó là <b>em</b>...',
+        message: 'A cũng chẳng biết trân trọng người mà anh <b class="hl">yêu thương nhất</b> đó là <b>em</b>...',
         time: 3.5,
     },
     {
