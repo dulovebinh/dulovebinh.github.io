@@ -50,17 +50,17 @@ const listMessage = [
     {
         type: TYPE_MESSAGE.MESSAGE,
         message: 'Nhưng sau khoảng thời gian ấy a mới biết mình <b class="hl">yêu em</b> đến nhường nào. A biết chắc chắn một điều, người ở lại sẽ là người <b class="hl">ôm nhiều vấn vương.</b>',
-        time: 4.5,
+        time: 6,
     },
     {
         type: TYPE_MESSAGE.MESSAGE,
         message: 'Nực cười thật đấy... mình chỉ nóng giận có vài tiếng thôi. Nhưng lại ôm <b>đau thương</b> suốt 1 quãng đường dài',
-        time: 3.5,
+        time: 4,
     },
     {
         type: TYPE_MESSAGE.MESSAGE,
         message: 'Hằng ngày đi làm chỉ muốn về <b class="hl">được nhìn thấy em.</b> Lòng anh được an ủi giữa chốn Hà Nội ồn ào đông đúc.',
-        time: 4,
+        time: 5,
     },
     {
         type: TYPE_MESSAGE.MESSAGE,
