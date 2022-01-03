@@ -124,7 +124,7 @@ const listMessage = [
     },
     {
         type: TYPE_MESSAGE.MESSAGE,
-        message: 'Có một tràng trai đã từng: nhịn ăn mỗi buổi trưa lúc trời đông lạnh buốt, lo lắng mỗi khí em bị ốm, mua các món ăn em thích...',
+        message: 'Có một tràng trai đã từng: nhịn ăn mỗi buổi trưa lúc trời đông lạnh buốt, lo lắng mỗi khi em bị ốm, mua các món ăn em thích...',
         time: 5,
     },
     {
