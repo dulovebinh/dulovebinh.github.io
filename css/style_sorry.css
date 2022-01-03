@@ -195,12 +195,13 @@ main {
   margin: auto;
 }
 
-.container a {
+a.link-all {
   color: green;
   text-align: center;
   font-weight: bold;
   text-decoration: underline;
   cursor: pointer;
+  position: relative;
 }
 
 .youtube-container {
