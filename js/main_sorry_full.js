@@ -61,8 +61,8 @@ const listMessage = [
   },
   {
     type: TYPE_MESSAGE.MESSAGE,
-    message: "Anh ấy lo lắng chăm sóc mỗi khi em bị ốm, mua các món ăn em thích...",
-    time: 7,
+    message: "Lo lắng chăm sóc mỗi khi em bị ốm, mua các món ăn em thích...",
+    time: 5,
   },
 
   {
@@ -153,7 +153,7 @@ const listMessage = [
   },
 ];
 
-for (let i = 33; i >= 1; i--) {
+for (let i = 34; i >= 1; i--) {
   listMessage.push({
     type: TYPE_MESSAGE.IMAGE,
     message: `images/dubinh/${i}.jpg`,
