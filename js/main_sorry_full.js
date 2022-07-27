@@ -20,11 +20,6 @@ const listMessage = [
   },
   {
     type: TYPE_MESSAGE.MESSAGE,
-    message: `Em còn nhớ tới anh dù chỉ là 1 chút nào không?`,
-    time: 6,
-  },
-  {
-    type: TYPE_MESSAGE.MESSAGE,
     message: `Chúng ta đã có khoảng thời gian thật đẹp và đang nhẽ đến giờ nó vẫn đang diễn ra <b>${getDayCount()}</b> ngày.`,
     time: 5.5,
   },
@@ -62,17 +57,17 @@ const listMessage = [
     type: TYPE_MESSAGE.MESSAGE,
     message:
       "Có một tràng trai đã từng: nhịn ăn mỗi buổi trưa lúc trời đông lạnh buốt để tiết kiệm tiền chăm sóc người mình yêu",
-    time: 7,
+    time: 5,
   },
   {
     type: TYPE_MESSAGE.MESSAGE,
     message: "Lo lắng chăm sóc mỗi khi em bị ốm, mua các món ăn em thích...",
-    time: 5,
+    time: 4,
   },
   {
     type: TYPE_MESSAGE.MESSAGE,
     message: "Trở em đi trên các con phố, cùng em đi đến những nơi em muốn đi",
-    time: 5,
+    time: 4,
   },
   {
     type: TYPE_MESSAGE.MESSAGE,
@@ -97,7 +92,7 @@ const listMessage = [
   {
     type: TYPE_MESSAGE.MESSAGE,
     message: "Họ cùng yêu thương nhau và vượt qua những khó khăn trong cuộc sống.",
-    time: 7,
+    time: 5,
   },
   {
     type: TYPE_MESSAGE.MESSAGE,
@@ -112,7 +107,7 @@ const listMessage = [
   {
     type: TYPE_MESSAGE.MESSAGE,
     message: "A xin lỗi đã không thể thấu hiểu mỗi khi em nhắc nhở anh",
-    time: 5.5,
+    time: 5,
   },
   {
     type: TYPE_MESSAGE.MESSAGE,
@@ -136,13 +131,27 @@ const listMessage = [
   },
   {
     type: TYPE_MESSAGE.MESSAGE,
-    message: "Đó là điều anh mong mỏi chờ đợi ngày qua ngày, liệu em có tin a không?",
+    message: "Đó là điều anh mong mỏi chờ đợi ngày qua ngày",
     time: 5.5,
   },
   {
     type: TYPE_MESSAGE.MESSAGE,
-    message:
-      "Đừng chặn anh nữa... nick Facebook Lê Huy Du vẫn đang là đương kim vô địch đợi bỏ block từ An Bình đấy 😭",
+    message: `Liệu em có tin hay em còn nhớ tới anh dù chỉ là 1 chút 😔`,
+    time: 5,
+  },
+  {
+    type: TYPE_MESSAGE.MESSAGE,
+    message: `Còn nơi anh thì em vẫn mãi ở trong trái tim <3`,
+    time: 5,
+  },
+  {
+    type: TYPE_MESSAGE.MESSAGE,
+    message: `Chỉ khác trước đây là anh học được cách lắng nghe và yêu thương em nhiều hơn`,
+    time: 5.5,
+  },
+  {
+    type: TYPE_MESSAGE.MESSAGE,
+    message: `<i style="color: #f57979; font-style: italic">To the world you may be one person but to one person you may be the world. <3</i>`,
     time: 6.5,
   },
 ];
