@@ -15,8 +15,28 @@ const TYPE_MESSAGE = {
 const listMessage = [
   {
     type: TYPE_MESSAGE.MESSAGE,
-    message: `Bé ơi! Chúng ta đã có khoảng thời gian thật đẹp và đang nhẽ đến giờ nó vẫn đang diễn ra <b>${getDayCount()}</b> ngày.`,
-    time: 7.3,
+    message: `Bé ơi!...`,
+    time: 6,
+  },
+  {
+    type: TYPE_MESSAGE.MESSAGE,
+    message: `Em còn nhớ tới anh dù chỉ là 1 chút nào không?`,
+    time: 6,
+  },
+  {
+    type: TYPE_MESSAGE.MESSAGE,
+    message: `Còn anh từng giây từng phút mình thuộc về nhau chưa một ngày nào anh quên`,
+    time: 6,
+  },
+  {
+    type: TYPE_MESSAGE.MESSAGE,
+    message: `Bởi vì thực sự anh chưa hề muốn xa em...`,
+    time: 6,
+  },
+  {
+    type: TYPE_MESSAGE.MESSAGE,
+    message: `Chúng ta đã có khoảng thời gian thật đẹp và đang nhẽ đến giờ nó vẫn đang diễn ra <b>${getDayCount()}</b> ngày.`,
+    time: 5.5,
   },
   {
     type: TYPE_MESSAGE.MESSAGE,
@@ -30,28 +50,23 @@ const listMessage = [
   },
   {
     type: TYPE_MESSAGE.MESSAGE,
-    message: "Nhiều lúc anh không tốt. Đã khiến em phải chịu nhiều tổn thương 😭",
-    time: 4.5,
-  },
-  {
-    type: TYPE_MESSAGE.MESSAGE,
-    message: "A tạo quá nhiều áp lực cho bản thân.... A nghĩ về tương lai 2 đứa sau này nhiều hơn hiện tại.",
+    message: "Đọc lại những dòng tin nhắn trước đây mà anh thấy có lỗi với em rất nhiều...",
     time: 5.5,
   },
   {
     type: TYPE_MESSAGE.MESSAGE,
-    message: "Mà quên mất rằng mình phải sống cả cho hiện tại nữa.",
-    time: 4,
+    message: "Những lần nông nổi đó là sự non nớt trẻ người non dạ của anh.",
+    time: 7.2,
   },
   {
     type: TYPE_MESSAGE.MESSAGE,
-    message: "Nông nổi là sai lầm của tuổi trẻ. Đáng lẽ anh cần bình tĩnh hơn",
-    time: 4.2,
+    message: "Bây giờ a chỉ biết tự trách mình. Đáng lẽ anh cần bình tĩnh hơn trong mọi trường hợp",
+    time: 5.5,
   },
   {
     type: TYPE_MESSAGE.MESSAGE,
     message: "Em còn nhớ không?",
-    time: 3.2,
+    time: 4.2,
   },
   {
     type: TYPE_MESSAGE.MESSAGE,
@@ -82,7 +97,7 @@ const listMessage = [
   },
   {
     type: TYPE_MESSAGE.MESSAGE,
-    message: "Quan tâm lo lắng từng bữa ăn giấc ngủ, đến cả quần áo để mặc...",
+    message: "Quan tâm lo lắng từng bữa ăn giấc ngủ...",
     time: 5,
   },
   {
@@ -133,16 +148,11 @@ const listMessage = [
   {
     type: TYPE_MESSAGE.MESSAGE,
     message: "Tha thứ cho anh một cơ hội dù là nhỏ nhất",
-    time: 4.5,
+    time: 5.5,
   },
   {
     type: TYPE_MESSAGE.MESSAGE,
     message: "Đó là điều anh mong mỏi chờ đợi ngày qua ngày",
-    time: 4.5,
-  },
-  {
-    type: TYPE_MESSAGE.MESSAGE,
-    message: "Vì anh yêu em!",
     time: 5.5,
   },
   {
