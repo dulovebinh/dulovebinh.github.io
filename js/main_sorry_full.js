@@ -25,22 +25,12 @@ const listMessage = [
   },
   {
     type: TYPE_MESSAGE.MESSAGE,
-    message: `Còn anh từng giây từng phút mình thuộc về nhau chưa một ngày nào anh quên`,
-    time: 6,
-  },
-  {
-    type: TYPE_MESSAGE.MESSAGE,
-    message: `Bởi vì thực sự anh chưa hề muốn xa em...`,
-    time: 6,
-  },
-  {
-    type: TYPE_MESSAGE.MESSAGE,
     message: `Chúng ta đã có khoảng thời gian thật đẹp và đang nhẽ đến giờ nó vẫn đang diễn ra <b>${getDayCount()}</b> ngày.`,
     time: 5.5,
   },
   {
     type: TYPE_MESSAGE.MESSAGE,
-    message: "Nhưng chỉ vì thoáng nóng giận mà a đã hủy hoại 2 trái tim <b>yêu thương nhau.</b> 💔",
+    message: "Nhưng chỉ vì thoáng nóng giận mà a đã khiến 2 trái tim <b>yêu thương nhau.</b> phải rời xa 💔",
     time: 4,
   },
   {
@@ -60,7 +50,7 @@ const listMessage = [
   },
   {
     type: TYPE_MESSAGE.MESSAGE,
-    message: "Bây giờ a chỉ biết tự trách mình. Đáng lẽ anh cần bình tĩnh hơn trong mọi trường hợp",
+    message: "Bây giờ a chỉ biết tự trách mình. Đáng lẽ anh phải bình tĩnh hơn trong mọi hoàn cảnh",
     time: 5.5,
   },
   {
@@ -79,7 +69,6 @@ const listMessage = [
     message: "Lo lắng chăm sóc mỗi khi em bị ốm, mua các món ăn em thích...",
     time: 5,
   },
-
   {
     type: TYPE_MESSAGE.MESSAGE,
     message: "Trở em đi trên các con phố, cùng em đi đến những nơi em muốn đi",
@@ -132,12 +121,7 @@ const listMessage = [
   },
   {
     type: TYPE_MESSAGE.MESSAGE,
-    message: "Ngàn lần xin lỗi cũng không thể xoá bỏ hết những tổn thương a gây ra",
-    time: 4.5,
-  },
-  {
-    type: TYPE_MESSAGE.MESSAGE,
-    message: "Nhưng mong em nhìn vào những gì chúng ta đã cùng cố gắng vì nhau",
+    message: "Mong em nhìn vào những gì chúng ta đã cùng cố gắng vì nhau",
     time: 4.5,
   },
   {
@@ -147,19 +131,19 @@ const listMessage = [
   },
   {
     type: TYPE_MESSAGE.MESSAGE,
-    message: "Tha thứ cho anh một cơ hội dù là nhỏ nhất",
+    message: "Tha thứ anh một cơ hội dù là nhỏ nhất",
     time: 5.5,
   },
   {
     type: TYPE_MESSAGE.MESSAGE,
-    message: "Đó là điều anh mong mỏi chờ đợi ngày qua ngày",
+    message: "Đó là điều anh mong mỏi chờ đợi ngày qua ngày, liệu em có tin a không?",
     time: 5.5,
   },
   {
     type: TYPE_MESSAGE.MESSAGE,
     message:
-      "Đừng chặn anh nữa nhé... nick Facebook Lê Huy Du vẫn đang là đương kim vô địch đợi bỏ block từ An Bình đấy huhu 😭",
-    time: 7.5,
+      "Đừng chặn anh nữa... nick Facebook Lê Huy Du vẫn đang là đương kim vô địch đợi bỏ block từ An Bình đấy 😭",
+    time: 6.5,
   },
 ];
 
